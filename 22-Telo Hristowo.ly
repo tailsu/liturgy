@@ -38,7 +38,7 @@
 			\lyricmode {
 				Te -- lo Hri -- ssto -- wo pri -- i -- mi -- te.
 				I -- ssto -- chni -- ka Bes -- smert -- na -- go wku -- si -- te.
-				A -- li -- lu - i -- ja, a -- li -- lu -- i -- ja, a -- li -- lu -- i -- ja.
+				A -- li -- lu -- i -- ja, a -- li -- lu -- i -- ja, a -- li -- lu -- i -- ja.
 			}
 		}
 		\new Staff \with { \omit TimeSignature } {
