@@ -25,7 +25,8 @@ F = \markup { \box \pad-markup #0.2 \bold "F" }
 			f4 f g-> f e f(-> g) g2-> \bar "|"
 			a4->^\C g f8([ e]) d4 e(-> f) d2.^\D \bar "|"
 			d4 g->( a) a8[(^\F bes)] c4-- bes->( a) g2^\D \bar "|"
-			f4^"rit." e g->(^\C f) e8([ f] ees4) d2.--^\D\fermata
+			f4^"rit." e g->(^\C f) e8([ f] ees4) d2.--(\fermata^\D
+			c2^\markup "cadenza" d4 ees2 f4 d2)\fermata
 			\bar "|."
 		}
 		\addlyrics {
