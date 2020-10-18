@@ -21,9 +21,9 @@ cadenza = ^\markup { \italic "cadenza" }
 	scoreTitleMarkup = \markup {
 		\fill-line {
 			\column {
-				\vspace #1.5
-				\fontsize #2 \fromproperty #'header:piece
 				\vspace #0.5
+				\fontsize #2 \fromproperty #'header:piece
+				%\vspace #0.5
 			}
 		}
 	}
@@ -91,7 +91,20 @@ cadenza = ^\markup { \italic "cadenza" }
 
 \include "20-Vater Unser-Ende.ly"
 
-\markup \text-break "Konzertprogramm folgt"
+\markup {
+	\fill-line {
+		\column {
+			\vspace #2
+			\larger "Konzertprogramm folgt:"
+			\vspace #0.5
+			\italic "ggf. Communionstroparia"
+			"Bogoroditse Dewo (ohne Budi Imja...)"
+			"Agni Parthene"
+			"Troparion Ioan Rilski"
+			"Hwalite Gospoda s'Nebes"
+		}
+	}
+}
 \pageBreak
 \include "21-Blagoslowen Grjadij.ly"
 \include "22-Telo Hristowo.ly"
