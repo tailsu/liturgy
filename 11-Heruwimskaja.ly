@@ -32,7 +32,7 @@
 					g2(\! e) g4( a2)\> g4 fis2 fis e1\mp \bar "||"
 
 					e2 g1 \bar "||"
-					g2_-\f^\markup { \italic "con fuoco" } fis4(_- e)_- g2_- fis_- e1_-
+					g2_-\f^\markup { \italic "feierlich" } fis4(_- e)_- g2_- fis_- e1_-
 					g2.\> fis4 g( a2) g4 fis2 a4 a g2 g g4( fis) a2 g\mp \bar "|"
 					e2(\< fis4 g a2) c4(\f b c2)\> b4( a) g2\mf e
 					g4( a2 g4 fis1) e_-\fermata \bar "|"
