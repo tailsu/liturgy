@@ -45,12 +45,13 @@ F = \markup { \box \pad-markup #0.2 \bold "F" }
 		\relative c'' {
 			g4 b aes8([ g]) f4 g2 \bar "|"
 			g4 g aes8([ g]) f4 e e e8([ f] g4) g2 \bar "|"
+			\mark \markup { \musicglyph #"scripts.segno" }
 			g4 aes b aes g aes aes( b) b2 g8([ aes] g4)
-			f( e) f( g aes b8[ c]) b8([ c b aes g] aes4 g8) g2 \bar "|"
+			f( e) f( g aes b8[ c]) b8([ c b aes g] aes4 g8) g2^"1:3x Fine:1x" \bar ":|."
+			
 			g2 g8 aes b g aes4 g2 \bar "|"
 			f8 f g e \tuplet 3/2 { e8([ f g]) } g2 \bar "|"
-			
-			f8 g4 g8 aes b aes g f g([ aes16 g])  f16([ e]) d8 e f16([ g]) g2 \bar "|"
+			f8 g4 g8 aes b aes g f g([ aes16 g])  f16([ e]) d8 e f16([ g]) \mark "D.S. al Fine" g2 \bar "|"
 			\bar "|."
 		 }
 
