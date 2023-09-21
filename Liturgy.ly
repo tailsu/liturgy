@@ -52,15 +52,17 @@ cadenza = ^\markup { \italic "cadenza" }
 \include "Ruf-Apostol.ly"
 \pageBreak
 \include "07-Suguba Ektenija-Bolgarskaja-no35.ly"
-
+\include "09-Ektenija na oglashenite.ly"
 \include "10-Liturgie der Glaeubigen-Anfang.ly"
 
 \markup \text-break "Heruwimskaja folgt"
 \pageBreak
-\include "11-Heruwimskaja.ly"
+% \include "11-Heruwimskaja.ly"
 
 \markup "Св.: Исполним молитву нашу Господеви."
-\include "Prositelnaja Ektenija-Gmoll.ly"
+\include "Prositelnaja Ektenija-Kulishevski.ly"
+\include "Prositelnaja Ektenija-Gdur.ly"
+\pageBreak
 \include "Ruf-I duhowi Twoemu.ly"
 \include "13-Otsa i Sina.ly"
 
@@ -85,7 +87,8 @@ cadenza = ^\markup { \italic "cadenza" }
 \include "17-Dostojno Est-Ende.ly"
 
 \markup "Св.: Вся святия помянувше, паки и паки миром Господу помолимся."
-\include "Prositelnaja Ektenija-Gmoll.ly"
+\include "Prositelnaja Ektenija-Kulishevski.ly"
+\include "Prositelnaja Ektenija-Gdur.ly"
 \markup \text-break "Vater Unser folgt"
 \pageBreak
 

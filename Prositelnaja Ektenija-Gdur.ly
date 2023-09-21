@@ -1,7 +1,7 @@
 
 
 \score {
-	\header { piece = \markup "Prositelnaja Ektenija G-moll | Просителная ектения" }
+	\header { piece = \markup "Prositelnaja Ektenija G-dur | Просителная ектения (Мажор)" }
 	\new ChoirStaff <<
 		\new Staff \with { \omit TimeSignature } {
 			\override Staff.NoteHead.style = #'altdefault 

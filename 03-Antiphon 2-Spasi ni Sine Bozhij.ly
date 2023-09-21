@@ -21,11 +21,12 @@
 		}
 		\addlyrics {
 			Спа -- си ни Си -- не Бо -- жий,
-			во свя -- тих ди -- вен си
+			воз -- скре -- сий из мерт -- вих
 			по -- ю -- щи -- я ти: А -- ли -- лу -- и -- я.
 		}
 		\addlyrics {
 			Spa -- si ni Si -- ne Bo -- zhij,
+			Wos -- kres -- sij is mert -- wih
 			wo swja -- tih di -- wen si
 			po -- ju -- schti -- ja ti: A -- li -- lu -- i -- ja.
 		}

@@ -49,7 +49,7 @@ cadenza = ^\markup { \italic "cadenza" }
  	\new Staff \with { \omit TimeSignature }	
 	{
 		\set Score.timing = ##f
-		\set Staff.keySignature = #`((5 . ,FLAT))
+		\key g #`((1 . ,FLAT))
 		\relative c' {
 			e4^\G e f g g aes g f g aes g g f f e2 \bar "|"
 			e4 f g g aes g2 e4 f g g g g g aes aes aes g b( c8[ b]) aes4 g2 \bar "|"
