@@ -11,8 +11,8 @@
 				\new Voice = "S" {
 					\voiceOne
 					\relative c'' {
-						a4 \mark \markup { \small "Св.: Премудрост! Прости!" } bes c c c d c8[( d c bes)] a4( bes) \bar "|"
-						c c c d2 d4. d8 c4.( bes8) \bar "|"
+						a8 a a a \mark \markup { \small "Св.: Премудрост! Прости!" } bes c4 c c d c8[( d)] c[( bes)] a4( bes) \bar "|"
+						c c d4. d8 d4. d8 c4. bes8 a2 \bar "|"
 						a4( bes) c c c d c8([ d c bes]) a4( bes) \bar "|"
 						c8 \mark \markup { \small \italic "Satz je nach Anlass" } c\breve \bar "|"
 						c8 d2 d4. d8 c4.( bes8) \bar "|"
@@ -23,8 +23,8 @@
 				\new Voice = "A" {
 					\voiceTwo
 					\relative c' {
-						f4 g a a a bes a8([ bes a g]) f4( g) \bar "|"
-						a a a bes2 bes4. bes8 a4.( g8) \bar "|"
+						f8 f f f g a4 a a bes a8[( bes)] a[( g)] f4( g) \bar "|"
+						a a bes4. bes8 bes4. bes8 a4. g8 f2 \bar "|"
 						f4( g) a a a bes a8([ bes a g]) f4( g) \bar "|"
 						a8 a\breve \bar "|"
 						a8 bes2 bes4. bes8 a4. g8 \bar "|"
@@ -36,16 +36,11 @@
 		}
 		\new Lyrics \lyricsto "S" {
 			\lyricmode {
-				При -- и -- ди -- те, по -- кло -- ни -- мся и при -- па -- дем ко Хри -- сту:
+				В_цер -- квах бла -- го -- сло -- ви -- те Бо -- га Го -- спо -- да
+				от ис -- точ -- ник И -- зра -- и -- ле -- вих
+				% При -- и -- ди -- те, по -- кло -- ни -- мся и при -- па -- дем ко Хри -- сту:
 				спа -- си ни Си -- не Бо -- жий во -- скресий_из_мертвих по -- ю -- щи -- я Ти:
 				А -- ли -- лу -- я, а -- ли -- лу -- и -- я, а -- ли -- лу -- и -- я.
-			}
-		}
-		\new Lyrics \lyricsto "S" {
-			\lyricmode {
-				Pri -- i -- di -- te, po -- klo -- nim -- sja i pri -- pa -- dem ko Hri -- stu:
-				spa -- si ni Si -- ne Bo -- zhij wo -- skresij_iz_mertwih po -- ju -- schti -- ja Ti:
-				A -- li -- lu -- ja, a -- li -- ju -- i -- ja, a -- li -- lu -- i -- ja.
 			}
 		}
 		\new Staff \with { \omit TimeSignature } {
@@ -53,8 +48,8 @@
 			\set Score.timing = ##f
 			\key f \major
 			\relative c' {
-				f4 f f f f f f2 f \bar "|"
-				f4 f f bes2 bes,4. d8 f2 \bar "|"
+				f8 f f f f f4 f f f f f f2 \bar "|"
+				f4 f bes4. bes8 bes,4. d8 f4. f8 f2 \bar "|"
 				f f4 f f f f2 f \bar "|"
 				f8 f\breve \bar "|"
 				f8 bes2 bes,4. d8 f2 \bar "|"
@@ -62,10 +57,4 @@
 			}
 		}
 	>>
-	\layout {
-		\context {
-			\Score
-			\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
-		}
-	}
 }
